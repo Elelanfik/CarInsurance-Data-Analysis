@@ -1,0 +1,10 @@
+# Project Requirements for Data Analysis and A/B Testing
+
+# Python Packages
+pandas==1.5.3          # Data manipulation and analysis
+numpy==1.23.5          # Numerical operations
+matplotlib==3.6.2      # Data visualization
+seaborn==0.12.2        # Statistical data visualization
+scikit-learn==1.1.3    # Machine learning and statistical modeling
+dvc==2.9.2             # Data Version Control
+gitpython==3.1.30      # Git interaction in Python

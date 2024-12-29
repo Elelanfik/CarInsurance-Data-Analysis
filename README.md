@@ -18,7 +18,45 @@ Welcome to the AlphaCare Insurance Analytics repository! This project focuses on
 - `README.md`: This file.
 
 ## Getting Started
+# Project Requirements
 
+## General Requirements
+- **Programming Language**: Python (version 3.x)
+- **Libraries**: 
+  - Pandas for data manipulation and analysis
+  - NumPy for numerical operations
+  - Matplotlib and Seaborn for data visualization
+  - Scikit-learn for machine learning and statistical modeling
+  - DVC (Data Version Control) for managing data and model versions
+- **Version Control**: Git and GitHub for source code management and collaboration
+
+## Task-Specific Requirements
+
+### Task 1: Git and GitHub
+- Create a Git repository for the project.
+- Develop a comprehensive README file.
+- Implement Continuous Integration/Continuous Deployment (CI/CD) using GitHub Actions.
+- Commit code regularly with descriptive messages.
+
+### Task 2: Data Version Control (DVC)
+- Install DVC using pip: `pip install dvc`.
+- Initialize DVC in the project directory: `dvc init`.
+- Set up local remote storage for DVC.
+- Track datasets using DVC: `dvc add <data.csv>`.
+- Commit DVC files to the Git repository.
+- Push data to local remote storage using `dvc push`.
+
+### Task 3: A/B Hypothesis Testing
+- Define clear hypotheses for A/B testing.
+- Select appropriate metrics for evaluation.
+- Segment data for analysis.
+- Conduct statistical testing to analyze outcomes.
+- Document findings and interpret results.
+
+### Task 4: Statistical Modeling
+- Data Preparation: Handle missing data, perform feature engineering, and split data.
+- Modeling Techniques: Implement various modeling techniques.
+- Model Evaluation: Evaluate models using relevant metrics.
 ### Prerequisites
 - Python 3.x
 - Git
